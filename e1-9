@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int n1=7,n2=15,n3=23;
+    int wa;
+    
+    puts("请输入三个整数。");
+    printf("整数1：%d",n1);  
+    printf("整数2：%d",n2);  
+    printf("整数3：%d",n3); 
+    
+    wa=n1+n2+n3 ;
+  
+    printf ("它们的和是%d。\n",wa);
+    
+    return 0;
+}
