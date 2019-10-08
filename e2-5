@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a=54,b=84;
+    
+    puts("请输入两个整数。");
+    printf("整数a:%d\n",a);
+    printf("整数b:%d\n",b);
+
+    printf("a是b是%f%%。\n",((double)a/b)*100);
+
+    return 0;
+    
+}
