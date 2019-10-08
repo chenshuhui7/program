@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int a,b,c,d;
+    double x,y,z,q;
+    a=3.414;
+    b=8.9/2;
+    c=4/2;
+    d=1234/321;
+
+    x=5.1415926;
+    y=2039.11123;
+    z=4.5556/2.111;
+    q=8.008/2.445;
+
+    printf("a=%d\n",a);
+    printf("b=%d\n",b);
+    printf("c=%d\n",c);
+    printf("d=%d\n",d);
+
+    printf("x=%f\n",x);
+    printf("z=%f\n",z);
+
+    return 0;
+
+}
