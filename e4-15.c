@@ -9,7 +9,7 @@ int main(void)
     for(sw=a;sw<b;sw+=c)
     {printf("%dcm   ",sw);
      double se;
-     se=(sw-80)*0.7;
+     se=(sw-100)*0.9;
     printf("  %.2fkg\n",se); 
 }
 
